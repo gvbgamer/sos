@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡ESPERA! Tu pedido no está completo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased">
+
+    <!-- Progress Bar (Sticky for mobile) -->
+    <div class="bg-white py-2 border-b shadow-sm sticky top-0 z-50">
+        <div class="px-4 text-center">
+            <p class="text-[10px] sm:text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">
+                Paso 2 de 3: Personalizando pedido
+            </p>
+            <div class="w-full bg-gray-200 rounded-full h-1.5 max-w-sm mx-auto">
+                <div class="bg-green-500 h-1.5 rounded-full" style="width: 66%"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-xl mx-auto px-4 py-6">
+        
+        <!-- Headline (Smaller size) -->
+        <div class="text-center mb-6">
+            <h1 class="text-2xl sm:text-3xl font-black text-red-600 leading-tight mb-2">
+                ¡ESPERA! Tu pedido aún no está completo 🚨
+            </h1>
+            <p class="text-sm sm:text-base font-bold text-orange-600 leading-snug">
+                Por favor, no cierres esta página o podrías perder el progreso de tu bebé.
+            </p>
+        </div>
+
+        <!-- The "Why" / Story (Moved BEFORE the offer card) -->
+        <div class="mb-8 text-gray-800 text-sm sm:text-base leading-relaxed space-y-4 px-1">
+            <p>¡Felicidades! La <strong>Técnica de la Vaquita</strong> ya va a tu correo. Pero antes de ir a tu área de miembros, necesito hacerte una advertencia crucial.</p>
+
+            <p>Lo que nadie te dice sobre el sueño infantil es que <span class="bg-yellow-200 font-bold text-gray-900 px-1">las recaídas ocurren.</span></p>
+            
+            <p>¿Qué vas a hacer la próxima semana cuando a tu bebé le empiece a salir un diente y llore de dolor? ¿O cuando se resfríe? ¿O duerma en una cuna extraña?</p>
+
+            <p>En esos momentos, a las 3:00 AM, la desesperación te hará darle el pecho de nuevo. <strong class="text-red-600">En una sola noche, destruirás todo el progreso y tendrás que empezar de cero.</strong></p>
+
+            <div class="p-4 bg-red-50 border-l-4 border-red-500 rounded-r-lg mt-3 shadow-sm">
+                <p class="font-bold text-red-900 mb-1">Por eso es VITAL que prestes atención ahora.</p>
+                <p class="text-red-800 text-sm">Para evitar que esto te suceda, he empaquetado mi salvavidas de emergencia para que nunca retrocedas ni un solo día. Si ignoras esto, pones en riesgo tus noches de sueño.</p>
+            </div>
+        </div>
+
+        <!-- The Offer Box -->
+        <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden mb-8 relative">
+            
+            <!-- Beautiful Header for the Kit -->
+            <div class="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 p-5 text-center text-white relative">
+                <!-- Simple SVG Icon -->
+                <svg class="w-10 h-10 mx-auto mb-2 text-blue-200 opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                </svg>
+                <h2 class="text-xl font-black tracking-wide">SOS SUEÑITOS</h2>
+                <p class="text-blue-200 text-xs font-semibold uppercase tracking-widest mt-1">El Kit de Emergencia</p>
+            </div>
+            
+            <div class="p-5 sm:p-6">
+                <!-- Features List -->
+                <ul class="space-y-4 mb-6 text-sm sm:text-base text-gray-700">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <p><strong class="text-gray-900">Protocolo Anti-Recaídas:</strong> Qué hacer en vacunas, viajes o dientes para no volver al pecho.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <p><strong class="text-gray-900">Audios de Rescate:</strong> Dale play a las 3 AM. Yo te guiaré para calmarte y calmarlo.</p>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <p><strong class="text-gray-900">Checklist de Crisis:</strong> Descubre la raíz del llanto en 30 segundos.</p>
+                    </li>
+                </ul>
+
+                <!-- Pricing -->
+                <div class="text-center mb-6 border-t border-dashed border-gray-200 pt-5">
+                    <p class="text-gray-400 text-sm line-through">Precio Normal: $47</p>
+                    <p class="text-4xl font-black text-green-600 my-1">Solo $17</p>
+                    <p class="text-[11px] text-red-600 font-bold uppercase tracking-wider bg-red-50 inline-block px-2 py-1 rounded mt-1">Oferta de única vez</p>
+                </div>
+
+                <!-- Botão de Ação -->
+                <a href="#" class="block w-full bg-green-500 hover:bg-green-600 text-white font-black py-4 px-2 rounded-xl text-center shadow-[0_5px_0_rgb(21,128,61)] active:shadow-none active:translate-y-[5px] transition-all">
+                    <span class="block text-xl sm:text-2xl leading-none mb-1">SÍ, QUIERO PROTEGERLO</span>
+                    <span class="block text-xs font-normal opacity-90">Agregar a mi pedido por solo $17</span>
+                </a>
+
+                <!-- Botão de Recusa -->
+                <a href="#" class="block mt-6 text-[11px] sm:text-xs text-gray-400 hover:text-gray-600 underline text-center px-4 leading-relaxed">
+                    No gracias. Prefiero arriesgarme a empezar de cero si mi bebé tiene una recaída o se enferma.
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
