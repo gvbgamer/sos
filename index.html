@@ -89,16 +89,17 @@
                     <p class="text-[11px] text-red-600 font-bold uppercase tracking-wider bg-red-50 inline-block px-2 py-1 rounded mt-1">Oferta de única vez</p>
                 </div>
 
-                <!-- Botão de Ação -->
-                <a href="#" class="block w-full bg-green-500 hover:bg-green-600 text-white font-black py-4 px-2 rounded-xl text-center shadow-[0_5px_0_rgb(21,128,61)] active:shadow-none active:translate-y-[5px] transition-all">
-                    <span class="block text-xl sm:text-2xl leading-none mb-1">SÍ, QUIERO PROTEGERLO</span>
-                    <span class="block text-xs font-normal opacity-90">Agregar a mi pedido por solo $17</span>
-                </a>
+                <!-- HOTMART - Sales Funnel Widget -->
+                <!--- sales funnel container --->
+                <div id="hotmart-sales-funnel" class="mt-4"></div>
 
-                <!-- Botão de Recusa -->
-                <a href="#" class="block mt-6 text-[11px] sm:text-xs text-gray-400 hover:text-gray-600 underline text-center px-4 leading-relaxed">
-                    No gracias. Prefiero arriesgarme a empezar de cero si mi bebé tiene una recaída o se enferma.
-                </a>
+                <!--- script load and setup --->
+                <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+                <script>
+                checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
+                </script>
+                <!-- HOTMART - Sales Funnel Widget -->
+
             </div>
         </div>
 
